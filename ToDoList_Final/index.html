@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70a5890f20.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+    </div>
+    <div class="input-Box">
+        <input type="text" id="task-Title" placeholder="Enter Task Here">
+        <button onclick="addTask()">Add</button>
+    </div>
+    <div class="not-completed">
+        <ol id="not-completed-list">
+            <h3>Not Completed</h3>
+            <h5 id="notAdded">No Task Added Yet</h5>
+        </ol>
+    </div>
+    <div class="completed">
+        <ol id="completed-task-list">
+            <h3>Completed</h3>
+            <h5 id="notCompleted">No Task Completed Yet</h5>
+        </ol>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
